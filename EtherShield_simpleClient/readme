@@ -1,0 +1,28 @@
+//--------------------------------------------------------
+//   EtherShield examples: simpleClient
+//
+//   simple client code layer:
+//
+// - ethernet_setup(mac,ip,gateway,server,port)
+// - ethernet_ready() - check this before sending
+//
+// - ethernet_setup_dhcp(mac,serverip,port)
+// - ethernet_ready_dhcp() - check this before sending
+//
+// - ethernet_setup_dhcp_dns(mac,domainname,port)
+// - ethernet_ready_dhcp_dns() - check this before sending
+//
+//   Posting data within request body:
+// - ethernet_send_post(PSTR(PACHUBEAPIURL),PSTR(PACHUBE_VHOST),PSTR(PACHUBEAPIKEY), PSTR("PUT "),str);
+// 
+//   Sending data in the URL
+// - ethernet_send_url(PSTR(HOST),PSTR(API),str);
+//
+//   EtherShield library by: Andrew D Lindsay
+//   http://blog.thiseldo.co.uk
+//
+//   Example by Trystan Lea, building on Andrew D Lindsay's examples
+//
+//   Projects: Nanode.eu and OpenEnergyMonitor.org
+//   Licence: GPL GNU v3
+//--------------------------------------------------------
